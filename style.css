@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(./img/background.jpg);
+    margin-bottom: 80px;
+
+}
+
+.bg-image{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 25%;
+    height: 40%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 10px;
+
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card-one{
+    border: 6px solid rgb(12, 12, 149);
+}
+.card-two{
+    border: 6px solid rgb(205, 55, 55);
+}
+.card-three{
+    border: 6px solid rgb(255, 208, 0);
+}
+
+.custom-img-background{
+    width: 65vh;
+    height: 180px;
+
+    overflow: hidden;
+
+}
+
+.header h2{
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+}
+
+.card-one .header h2{ background-color:rgb(12, 12, 149);}
+.card-two .header h2{ background-color:rgb(205, 55, 55);}
+.card-three .header h2{ background-color:rgb(255, 208, 0);}
+
+.background{
+    position: relative;
+}
+
+.icon{
+    padding: 25px;
+    text-align: center;
+}
+
+.custom-one{
+    background-image: url(./img/sonic-background.webp);
+}
+.custom-two{
+    background-image: url(./img/super.png);
+}
+.custom-three{
+    background-image: url(./img/streetfighter-background.jpg);
+}
+
+.custom-img-icon{
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #fff;
+
+    width: 40%;
+    height: 40%; 
+
+    overflow: hidden;
+}
+
+.content{
+    padding: 6%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer{
+    padding: 15px;
+    text-align: center;
+}
+
+.button-one{ background-color:rgb(12, 12, 149);}
+.button-two{ background-color:rgb(205, 55, 55);}
+.button-three{ background-color:rgb(255, 208, 0);}
+
+.link-custom{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.card:hover{
+    border-radius: 0%;
+}
+
+
+@media (max-width: 800px)
+{
+  .container
+   {
+    flex-wrap: wrap;
+   }
+   .card{
+    width: 100%;
+   }
+}
+
